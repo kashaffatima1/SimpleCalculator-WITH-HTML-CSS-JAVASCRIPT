@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <!-- ADD CSS FILE FOR STYLING -->
+     <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- CALCULATOR WORK -->
+    <div class="calculator">
+
+            <input type="number" id="first number" placeholder="Enter first number">
+            <input type="number" id="second number" placeholder="Enter second number">
+            <select id="operator">
+            <option value="Addition">Addition</option>
+            <option value="Subraction">Subraction</option>
+            <option value="Multiplication">Multiplication</option>
+            <option value="Division">Division</option>
+            </select>
+            <button onclick="calculate()">Calculate</button>
+            
+        <div id="result"></div>
+    </div>
+    <!-- ADD JAVASCRIPT FILE -->
+        <script src="script.js"></script>
+    
+</body>
+</html>

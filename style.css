@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    margin: 0;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    
+}
+ 
+.calculator {
+    margin: auto;
+    width: 30%; /* Element ki width set karna zaroori hai */
+    border: 3px solid rgb(90, 11, 236);
+    padding: 10px; 
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: beige;
+    border-radius: 10px;
+    box-shadow: rgb(177, 71, 71);
+    text-align: center;
+}
+
+input, select, button {
+    display: block;
+    margin: 10px auto;
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid cornsilk;
+}
+
+button {
+    background-color: brown;
+    color: rosybrown;
+    cursor: pointer;
+    border: none;
+}
+button:hover {
+    background-color: bisque;
+}
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(243, 5, 116);
+    text-align: center;
+}
